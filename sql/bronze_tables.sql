@@ -3,5 +3,6 @@ CREATE SCHEMA IF NOT EXISTS STAFFING_DB.BRONZE;
 CREATE OR ALTER TABLE STAFFING_DB.BRONZE.CANDIDATES (
   candidate_id INT,
   full_name    STRING,
-  email        STRING
+  email        STRING,
+  created_at   TIMESTAMP_NTZ
 );
